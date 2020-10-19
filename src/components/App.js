@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {SignIn} from './';
 
-function App() {
-  return (
-    <div className="App">
-      Slack Clone
-      <SignIn />
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SignIn />   
+      </div>
+    );
+  }
 }
 
 export default App;
